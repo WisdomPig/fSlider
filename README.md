@@ -34,9 +34,9 @@ fSlider是一个轻量级的轮播插件。
 			<li class="btn-item active">3</li>
 			<li class="btn-item">4</li>
 		</ul>
-		<a id="prevItem" class="arrow" href="javascript:;"></a>
-		<a id="nextItem" class="arrow" href="javascript:;"></a>
 	</div>
+	<a id="prevItem" class="arrow" href="javascript:;"></a>
+	<a id="nextItem" class="arrow" href="javascript:;"></a>
 
 ###javascript
 	var slider = new Slider($('#slider'), {
