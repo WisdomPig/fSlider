@@ -5,7 +5,7 @@ fSlider是一个轻量级的轮播插件。
 ##demo
 
 ###javascript
-
+<code>
 var slider = new Slider($('#slider'), {
 	time: 5000,
 	delay: 400,
@@ -15,5 +15,6 @@ var slider = new Slider($('#slider'), {
 	controller: $('#ctrl'),
 	activeControllerCls: 'active'
 });
+</code>
 
 
