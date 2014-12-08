@@ -38,6 +38,11 @@ fSlider是一个轻量级的轮播插件。
 	<a id="prevItem" class="arrow" href="javascript:;"></a>
 	<a id="nextItem" class="arrow" href="javascript:;"></a>
 
+###css
+	.wrapper {position: relative;overflow: hidden;}
+	.slider-list {position: absolute;height: 100%;top: 0;left: 0;}
+	.slider-item {float: left;height: 100%;}
+
 ###javascript
 	var slider = new Slider($('#slider'), {
 		time: 5000,
