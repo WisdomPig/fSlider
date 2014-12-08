@@ -1,8 +1,6 @@
 /**
- * @usage 	: slider
  * @author 	: Frend
  * @email	: wisdompig17@gmail.com
- * @date   	: 2014-07-09
  */
 Slider = function(container, options) {
 
